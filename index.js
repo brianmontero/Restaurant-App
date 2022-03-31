@@ -36,6 +36,10 @@ app.use('/', saleRoutes);
 const favoriteRoutes = require('./routes/favorite');
 app.use('/', favoriteRoutes);
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'bin/index.html'));
+})
+
 app.listen(port, (err) => { 
     if (err) {
         console.error('Error en el inicio del servidor: ', err);
