@@ -6,8 +6,9 @@ CREATE TABLE clients (
     client_id INT NOT NULL AUTO_INCREMENT,
     username VARCHAR(30) NOT NULL,
     email VARCHAR(60),
-    client_password(30) NOT NULL,
-    role VARCHAR(5)
+    client_password VARCHAR(30) NOT NULL,
+    role VARCHAR(5),
+    PRIMARY KEY (client_id)
 );
 
 CREATE TABLE favorites (

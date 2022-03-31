@@ -168,7 +168,7 @@ INSERT INTO menus (title, ingredients, menu_description, price, category, image)
     643,
     "none",
     "https://images-gmi-pmc.edge-generalmills.com/50e3c816-1fc7-440f-881d-1047b90809d5.jpg"
-    );
+);
 
 INSERT INTO menus (title, ingredients, menu_description, price, category, image) VALUES(
     "Tarta de queso y limón",
